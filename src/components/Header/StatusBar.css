@@ -1,0 +1,32 @@
+.status{
+    align-items: center;
+    height: 3rem;
+    padding: 0.3rem;
+    margin-left: 1rem;
+    align-items: flex-start;
+    cursor: pointer;
+    margin-top: 0.4rem;
+}
+.status span:nth-child(1){
+    font-size: 13px;
+}
+.status span:nth-child(2){
+    font-size: 14px;
+}
+.status:hover{
+    border: 1px solid #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+    .status{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid #FF6701;
+        height: auto;
+    }
+    .status span{
+        font-size: 1.1rem !important;
+        padding: 0.6rem;
+    }
+}

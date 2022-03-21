@@ -1,0 +1,42 @@
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+.card h5{
+    font-weight: 800;
+}
+.card form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 14rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+.card form div{
+    margin-left: 2rem;
+    width: 80% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card form div input{
+    border: 1px solid #000000;
+    border-radius: .2rem;
+    padding: 0.1rem;
+    font-weight: 800;
+}
+.card form button{
+    align-self: center !important;
+    background-color: #FFB319;
+    color: #000000;
+    border: 1px solid #FFB319;
+    padding: 0.2rem;
+    width: 9rem;
+    font-weight: 900;
+    border-radius: 0.1rem;
+}

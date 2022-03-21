@@ -1,0 +1,17 @@
+.not-found{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 530px) {
+    .not-found{
+        flex-direction: column;
+        height: 30rem;
+       
+    }
+    .not-found h5{
+        font-weight: 800;
+    }
+}

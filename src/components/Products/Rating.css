@@ -1,0 +1,10 @@
+.rating{
+    width: 80%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+
+}
+.rating svg{
+    color: #FFB72B !important;
+}

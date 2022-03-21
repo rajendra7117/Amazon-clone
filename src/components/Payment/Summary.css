@@ -1,0 +1,45 @@
+.summary{
+    width: 40rem ;
+}
+.summary .cart-item{
+    width: 34rem;
+    height: 15rem;
+}
+.summary .cart-item .cart-img{
+    margin-top: 2rem;
+    height: auto;
+}
+.summary .cart-item img{
+    height: 100px;
+    width: 100px;
+}
+
+.summary .cart-item .span-1{
+    font-size: 15px;
+}
+.summary .cart-item .cart-btns button{
+    font-size: 15px;
+}
+.summary .cart-item .cart-info h5{
+    font-size: 13px !important;
+}
+.summary .cart-item .cart-info{
+    height: auto;
+}
+.summary .cart-item .cart-info span{
+    font-size: 13px;
+}
+.summary .cart-item .cart-info{
+    text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+    .summary{
+        width: 96%;
+    }
+    .summary .cart-item{
+        width: 90%;
+        height: auto;
+    }
+
+}

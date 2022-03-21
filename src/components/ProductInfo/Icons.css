@@ -1,0 +1,19 @@
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+    justify-content: space-around;
+}
+.icon svg{
+    font-size: 2rem;
+    color: #FFB72B;
+}
+
+@media screen and (max-width: 520px){
+    .icon{
+        width: 98% !important;
+        
+    }
+}

@@ -1,0 +1,36 @@
+.signout{
+    width: 6rem;
+    height: 3rem;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.signout button{
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    padding: 0.2rem;
+    color: #ffffff;
+    font-weight: 700;
+    width: 6rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .signout{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0.6rem;
+        border-bottom: 1px solid #FF6701 !important; 
+        height: auto;
+
+    }
+    .signout button{
+       margin-bottom: 1rem;
+        width: 10rem;
+        font-size: 1.1rem;
+    }
+}

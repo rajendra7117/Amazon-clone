@@ -1,0 +1,40 @@
+.relatedGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+  
+}
+
+.relatedGrid .product-card{
+    width: 20rem;
+    height: 32rem;
+}
+.relatedGrid .product-card img{
+    width: 200px;
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+    .relatedGrid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 520px){
+    .relatedGrid{
+        grid-template-columns: repeat(1, 1fr) !important;
+        align-items: center;
+        width: 99%;
+
+    }
+  .relatedGrid .product-card{
+        width: 95%;
+        height: auto;
+        padding: 0.4rem;
+    }
+    .relatedGrid .product-card img{
+        width: 88%;
+    }
+}

@@ -1,0 +1,18 @@
+.wrapper{
+    margin-top: 13rem;
+    height: 100vh;
+    margin-left: 0 !important;
+}
+
+@media screen and (max-width: 520px) {
+    .wrapper{
+        padding: 0 !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .wrapper{
+        width: 100vw !important;
+        margin: 12rem 0 !important;
+        padding-right: 0 !important;
+    }
+}

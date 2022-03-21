@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter} from 'react-router-dom'
+import store from './store/MyRedux';
+import {Provider} from 'react-redux'
+import 'react-toastify/dist/ReactToastify.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
+    <BrowserRouter>
     <App />
-  </React.StrictMode>,
+    </BrowserRouter>
+    </Provider>
+  ,
   document.getElementById('root')
 );
 

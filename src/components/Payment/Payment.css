@@ -1,0 +1,25 @@
+.payment{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50rem;
+    margin: 1rem auto;
+    justify-content: space-around;
+}
+
+.accordion-button{
+    font-weight: 800 !important;
+}
+
+@media screen and (max-width: 1100px){
+    .payment{
+        width: 90% !important;
+        flex-direction: column;
+        height: auto;
+        align-items:center;
+        justify-content: space-around;
+    }
+    .payment div{
+    width: 98%;
+    }
+}

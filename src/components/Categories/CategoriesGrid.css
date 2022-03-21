@@ -1,0 +1,20 @@
+.cat-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+    gap: 1rem;
+    background-color: transparent !important;
+    width: 100vw !important;
+    margin-left: 0 !important;
+    align-items: flex-start !important;
+}
+.mobile{
+    grid-area: 1/ 5;
+}
+
+@media screen and (max-width: 520px) {
+    .cat-grid{
+        width: 100% !important;
+       margin-right: 10% !important;
+    }
+}

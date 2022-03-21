@@ -1,0 +1,172 @@
+.nav-bar{
+    width: 100%;
+    background-color: #141E27;
+    color: #ffffff;
+    padding: .1rem;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start !important;
+     padding-left: 0;
+     padding-bottom: 0;
+     position: fixed !important;
+     top: 7rem;
+     left: 0;
+     z-index: 10 !important;
+     margin-right: 0;
+     height: 7rem;
+
+
+}
+.nav-bar button{
+    background-color: #141E27;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    width: 4rem;
+}
+.nav-bar ul{
+    
+    margin-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 1rem;
+    padding-left: 0;
+    padding-bottom: 0;
+   
+}
+
+.nav-bar ul li{
+    align-items: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.nav-bar ul a:hover{
+    border: 1px solid #ffffff;
+}
+
+.nav-bar ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.navbar ul a:hover{
+    color: #ffffff;
+}
+
+.navbar ul svg{
+    font-size: 1.1rem;
+    margin: 0;
+}
+.navbar li:nth-child(1){
+    width: 2.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.wishlist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 0;
+    width: 14rem;
+    border: 2px solid #ffffff;
+    padding: 0.2rem;
+    cursor: pointer;
+    
+  
+}
+.wishlist svg{
+    font-size: 1.4rem;
+    transition: all 0.1s ease-out ;
+}
+.wishlist span{
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.4rem;
+}
+.amazon-icon:hover{
+    border: 1px solid #ffffff;
+}
+
+.bump{
+    transform: scale(1.5);
+}
+.nav-menu{
+    top: 1rem;
+    right: 38%;
+    font-size: 1.3rem;
+    position: absolute;
+  display: none;
+
+}
+ 
+
+.wishlist span svg:hover{
+    scale: 2 !important
+}
+@media screen and (max-width: 1000px) {
+    .nav-bar{
+        min-height: 5rem;
+    }
+    .nav-menu{
+        display: flex;
+        align-items: center;
+        width: auto;
+        
+    }
+    .nav-bar{
+        height: auto;
+    }
+    .nav-bar ul{
+        display: none;
+    }
+    .nav-bar ul.active{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        align-items: center;
+
+    }
+    .nav-bar ul.active a{
+            width: auto;
+            padding: 1rem;
+            font-size: 1.4rem;
+            margin: 0.2rem;
+    }
+    .nav-bar ul.active a:hover{
+        background-color: black;
+    }
+    .wishlist{
+        margin-left: 60%;
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        width: 16rem;
+
+    }
+    .wishlist svg{
+    font-size: 2rem;
+    }
+    .wishlist span{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .nav-bar ul.active{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 4rem;
+    }
+    .wishlist{
+        align-self: center;
+        margin-left: 20%;
+    }
+}   

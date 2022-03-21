@@ -1,0 +1,11 @@
+.products{
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+@media screen  and (max-width: 520px){
+    .products{
+        padding-left: 0 !important;
+    }
+}
+

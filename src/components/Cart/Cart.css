@@ -1,0 +1,13 @@
+.cart{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   align-items: center;
+   height: auto;
+  
+}
+@media screen and (max-width: 1000px) {
+    .cart{
+        flex-direction: column;
+    }
+}

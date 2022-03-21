@@ -1,0 +1,56 @@
+
+
+.new-form{
+    height: 30rem !important;
+    width: 25rem !important;
+    margin-top: 0;
+    justify-content: center !important;
+}
+.new-form h1{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    
+    text-align: start;
+    align-self: flex-start;
+    margin-left: 2rem;
+}
+.new-form .form-controls{
+    height: 23rem !important;
+    margin-top: 0 !important;
+}
+.form-controls button{
+    width: 20rem;
+    background-color: #f5c13e;
+    color: #000000;
+    padding: .2rem;
+    font-weight: 400;
+    border-radius: 0.1rem;
+    border: 1px solid #f5c13e;
+    margin-top: .4rem;
+    font-weight: 800 !important;
+}
+
+.text-muted{
+    font-size: 15px !important;
+}
+.sigin-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.sigin-form span{
+    font-size: 15px !important;
+    width: 100% !important;
+    font-weight: 700 !important;
+}
+.sigin-form a{
+    text-decoration: none;
+    background-color: rgb(189, 181, 181);
+    border: rgb(189, 181, 181);
+    border-radius: .1rem;
+    color: #000000;
+    width: 15rem;
+    padding: 1rem;
+}

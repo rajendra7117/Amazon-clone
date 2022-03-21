@@ -1,0 +1,47 @@
+.total-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    padding: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    height: 15rem;
+    width: 20rem;
+}
+.total-card button{
+ background-color: #FFB319;
+ color: #000000;
+ border: 1px solid #FFB319;
+ padding: 0.3rem;
+ border-radius: .7rem;   
+ margin-top: 2rem;
+}
+.total-card div{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.total-card h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+.total-card h1{
+    font-size: 20px !important;
+    margin-right: 0 !important;
+    font-weight: bolder !important;
+}
+
+@media screen and (max-width: 1000px){
+    .total-card{
+        width: 34rem;
+    }
+}
+@media screen and (max-width: 520px) {
+    .total-card{
+        width: 90%;
+    }
+}

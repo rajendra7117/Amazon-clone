@@ -1,0 +1,20 @@
+.success{
+    width: 22rem !important;
+    height: 15rem !important;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border: 1ps solid #ffffff;
+}
+.success button{
+    background-color: #FFC300;
+    color: #000000;
+    font-weight: 700;
+    padding: 0.2rem;
+    border: 1px solid #FFC300;
+    width: 8rem;
+    border-radius: 0.2rem;
+}
